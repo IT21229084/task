@@ -1,8 +1,3 @@
-const fs = require('fs');
-
-// Function to generate the README content
-function generateREADME() {
-    return `
 # NASA Open APIs Web UI
 
 This project is a web user interface that utilizes various NASA Open APIs to display information about Earth, Mars, and space in general. It features different pages for different functionalities, including the home page, EPIC (Earth Polychromatic Imaging Camera) page, APOD (Astronomy Picture of the Day) page, and Mars page. The project is developed using Vite.js for fast and efficient development.
@@ -22,41 +17,34 @@ To set up this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
 
-   \`\`\`bash
-   git clone https://github.com/your-username/nasa-open-apis-ui.git
-   \`\`\`
+   ```bash
+  https://github.com/sliitcsse/se3040-assignment02-IT21229084.git
+
 
 2. Navigate to the project directory:
 
-   \`\`\`bash
-   cd nasa-open-apis-ui
-   \`\`\`
+   ```bash
+   cd client
+   
 
 3. Install dependencies using npm:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+  
 
-## Build
+**To build the project for production, run:**
+ ```bash
+ npm run build
 
-To build the project for production, run:
+## HostLink
+https://boisterous-strudel-03cdff.netlify.app
 
-\`\`\`bash
-npm run build
-\`\`\`
 
-This will generate a \`dist\` folder with the compiled and optimized assets ready for deployment.
-
-## Run
-
-To run the project locally in development mode, execute:
-
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
 
-This will start a local development server at \`http://localhost:3000\`, where you can view and test the web UI.
+This will start a local development server at `http://localhost:5173`, where you can view and test the web UI.
 
 ## Usage
 
@@ -69,12 +57,3 @@ Once the project is set up and running, you can access different pages of the we
 
 Feel free to explore each page and interact with the content displayed.
 
-## Contributing
-
-Contributions to this project are welcome. If you have any ideas, suggestions, or improvements, please feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-`;
-}
