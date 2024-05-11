@@ -17,6 +17,7 @@ function Home() {
         />
       </div>
 
+      {/* first View */}
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -60,6 +61,7 @@ function Home() {
         />
       </div>
 
+      {/* Welcome section */}
       <div className="relative overflow-hidden bg-gray-50 mb-20">
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
@@ -113,7 +115,8 @@ function Home() {
           </div>
         </div>
       </div>
-
+       
+     
       <section className="relative h-screen overflow-hidden mb-20">
         <img src="https://www.nasa.gov/wp-content/uploads/2024/05/hubble-ic776-potw2418a.jpg?resize=2000,2000" alt="Cover Image" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute left-0 top-0 bottom-0 flex items-center justify-center text-white w-1/2">
@@ -124,7 +127,8 @@ function Home() {
           </div>
         </div>
       </section>
-
+        
+      {/* Aerospace Collections section */}
       <div class="bg-gray-100">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
@@ -171,7 +175,8 @@ function Home() {
           </div>
         </div>
       </div>
-
+ 
+      {/* newsletter */}
       <div className="relative overflow-hidden bg-gray-900 py-12 sm:py-16 lg:py-20 mt-20 mb-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
@@ -233,9 +238,6 @@ function Home() {
           />
         </div>
       </div>
-
-
-
 
     </div>
   )

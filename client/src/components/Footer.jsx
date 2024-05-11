@@ -3,8 +3,11 @@ import styles from "../styles";
 
 function Footer() {
     return (
+        //main footer section
         <footer className="bg-white dark:bg-gray-900 scroll-my-10">
             <div className="mx-auto max-w-screen-lg px-4 pb-6 pt-16 sm:px-6 lg:px-8 scroll-my-0">
+               
+               {/* About spaceLink */}
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <div className="flex justify-center text-teal-600 sm:justify-start dark:text-teal-300">
                         <div className="flex flex-shrink-0 items-center">
@@ -21,6 +24,7 @@ function Footer() {
                     </p>
                 </div>
                 
+                {/* extra info Links */}
                 <div
                     className="mt-2 grid grid-cols-1 gap-8 border-t border-gray-100 pt-16 md:grid-cols-4 lg:grid-cols-6 dark:border-gray-800"
                 >
@@ -189,6 +193,7 @@ function Footer() {
                     </div>
                 </div>
 
+                {/* bottom section */}
                 <div
                     className="mt-2 border-t border-gray-100 pt-6 sm:flex sm:items-center sm:justify-between dark:border-gray-800"
                 >
@@ -286,6 +291,7 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
+
             </div>
 
         </footer>
