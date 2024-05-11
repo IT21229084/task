@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, waitFor, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import '@testing-library/jest-dom/extend-expect'; // For additional matchers like toHaveTextContent
-import Apod from './Apod'; // Assuming the component file is named Apod.jsx
+// import '@testing-library/jest-dom/extend-expect';
+import Apod from '../pages/Apod.jsx'; // Assuming the component file is named Apod.jsx
 
 // Mocking the custom hook useFetch
 jest.mock('../hooks/useFetch', () => ({
