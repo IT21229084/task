@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/IT21229084/task",
   "name": "client",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +9,9 @@
     "test": "jest",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.19",
@@ -40,6 +43,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
